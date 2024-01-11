@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		489318382B5004C2005EF51C /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489318372B5004C2005EF51C /* LoginModel.swift */; };
 		48EE847B2B4FA4B3000194E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EE847A2B4FA4B3000194E3 /* AppDelegate.swift */; };
 		48EE847D2B4FA4B3000194E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EE847C2B4FA4B3000194E3 /* SceneDelegate.swift */; };
 		48EE847F2B4FA4B3000194E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EE847E2B4FA4B3000194E3 /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		489318372B5004C2005EF51C /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		48EE84772B4FA4B3000194E3 /* UnitTestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48EE847A2B4FA4B3000194E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48EE847C2B4FA4B3000194E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				48EE847A2B4FA4B3000194E3 /* AppDelegate.swift */,
 				48EE847C2B4FA4B3000194E3 /* SceneDelegate.swift */,
 				48EE847E2B4FA4B3000194E3 /* ViewController.swift */,
+				489318372B5004C2005EF51C /* LoginModel.swift */,
 				48EE84802B4FA4B3000194E3 /* Main.storyboard */,
 				48EE84832B4FA4B4000194E3 /* Assets.xcassets */,
 				48EE84852B4FA4B4000194E3 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48EE847F2B4FA4B3000194E3 /* ViewController.swift in Sources */,
+				489318382B5004C2005EF51C /* LoginModel.swift in Sources */,
 				48EE847B2B4FA4B3000194E3 /* AppDelegate.swift in Sources */,
 				48EE847D2B4FA4B3000194E3 /* SceneDelegate.swift in Sources */,
 			);
