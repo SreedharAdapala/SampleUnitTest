@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9CB0E37B-F80F-4D6F-A20E-3B164EEB3ACD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFEA4C1F-329E-45DA-8B85-8C2834E2F177"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "validateLoginCredentials(userName:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFEA4C1F-329E-45DA-8B85-8C2834E2F177 - 13313862750680f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.validateLoginCredentials(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "CFEA4C1F-329E-45DA-8B85-8C2834E2F177 - 13313862750680d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.validateLoginCredentials(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5440E1A-23AA-40C4-8A3F-2B15B655BAA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5440E1A-23AA-40C4-8A3F-2B15B655BAA6 - 32def1ed5d9cc9f6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.login(__C.UIButton) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "936">
+               </Location>
+               <Location
+                  uuid = "D5440E1A-23AA-40C4-8A3F-2B15B655BAA6 - 32def1ed5d9cc9d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.login(__C.UIButton) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E4410D5-6193-4C1A-91BC-F041F238C492"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "showAlert(message:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E4410D5-6193-4C1A-91BC-F041F238C492 - 58daef94c41d7f23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.showAlert(message: Swift.String) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "6E4410D5-6193-4C1A-91BC-F041F238C492 - 58daef94c41d7f23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.showAlert(message: Swift.String) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A62CEF38-EFEB-48C1-A72F-D3D81A962D09"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "validateLoginCredentials(userName:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A37401C9-C2DE-4FBE-A135-937E88D3E88C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A37401C9-C2DE-4FBE-A135-937E88D3E88C - 32def1ed5d9cc995"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.login(__C.UIButton) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A37401C9-C2DE-4FBE-A135-937E88D3E88C - 32def1ed5d9cc995"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.login(__C.UIButton) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "A37401C9-C2DE-4FBE-A135-937E88D3E88C - 32def1ed5d9cc995"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExample.ViewController.login(__C.UIButton) -&gt; ()"
+                  moduleName = "UnitTestExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/perennials/Documents/GitHub/UnitTestExample/UnitTestExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

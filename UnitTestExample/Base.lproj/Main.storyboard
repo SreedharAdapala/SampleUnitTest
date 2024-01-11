@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UnitTestExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fZi-mI-Vkx">
+                                <rect key="frame" x="60" y="129" width="273" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="16G-2g-RRt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NtZ-If-Sq9">
+                                <rect key="frame" x="60" y="193" width="273" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh5-42-fiB">
+                                <rect key="frame" x="126" y="281" width="141" height="35"/>
+                                <color key="backgroundColor" red="0.058747263001995564" green="0.20271845048029541" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="NlF-y8-jwa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbY-NT-8QC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.20388637856738115" green="0.57475143671035767" blue="0.46801438921032951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="NtZ-If-Sq9" firstAttribute="leading" secondItem="fZi-mI-Vkx" secondAttribute="leading" id="0jd-jk-Aaa"/>
+                            <constraint firstItem="NtZ-If-Sq9" firstAttribute="trailing" secondItem="fZi-mI-Vkx" secondAttribute="trailing" id="4xg-nS-Ig6"/>
+                            <constraint firstItem="Vh5-42-fiB" firstAttribute="top" secondItem="NtZ-If-Sq9" secondAttribute="bottom" constant="54" id="9zK-cf-SAl"/>
+                            <constraint firstItem="Vh5-42-fiB" firstAttribute="centerX" secondItem="NtZ-If-Sq9" secondAttribute="centerX" id="Llc-cT-uDH"/>
+                            <constraint firstItem="fZi-mI-Vkx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="bff-ca-1YZ"/>
+                            <constraint firstItem="NtZ-If-Sq9" firstAttribute="top" secondItem="fZi-mI-Vkx" secondAttribute="bottom" constant="30" id="mLs-7J-u7m"/>
+                            <constraint firstItem="NtZ-If-Sq9" firstAttribute="height" secondItem="fZi-mI-Vkx" secondAttribute="height" id="mzy-1y-zih"/>
+                            <constraint firstItem="fZi-mI-Vkx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="tK8-nN-Buj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fZi-mI-Vkx" secondAttribute="trailing" constant="60" id="tuG-K0-URj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="login" destination="Vh5-42-fiB" id="xC5-j9-u1k"/>
+                        <outlet property="password" destination="NtZ-If-Sq9" id="rNC-HO-yFj"/>
+                        <outlet property="userName" destination="fZi-mI-Vkx" id="lYf-7r-f3s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+</document>
